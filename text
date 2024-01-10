@@ -1,0 +1,7 @@
+Download and install Postman.
+2. Open Postman and create a new request by clicking the "+" button(mine - GitHub).
+3. In the new request tab, enter the following URL in the address bar: https://api.github.com/search/users
+4. In the dropdown next to the address bar, select the "GET" method.
+5. to search for a user, add the "q" parameter to the URL to search for users by name. For example, to search for users with the name "John Doe", the URL should be: https://api.github.com/search/users?q=mojombo
+6. Send the request by clicking the "Send" button.
+7. Once the request is sent, you will see the response from the GitHub API displayed in the "Body" tab of the response. You can use this response to build your JavaScript application and display the search results.
